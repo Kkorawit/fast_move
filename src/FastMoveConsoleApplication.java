@@ -4,6 +4,7 @@ import base.Bike;
 import base.Location;
 import base.Parcel;
 import base.ParcelStatus;
+import base.Person;
 import java.util.Scanner;
 
 /*
@@ -29,5 +30,13 @@ public class FastMoveConsoleApplication {
         System.out.print("Enter new bike :");
         Bike a = new Bike(x.next(),x.nextInt());
 }
+    
+    public void addPerson(){
+        System.out.println("Enter Firs Name : ");
+        String fn = x.next();
+        System.out.println("Enter our Last Name : ");
+        String ln = x.next();
+        Person ps1 = new Person(fn , ln);
+    }
 }
 
