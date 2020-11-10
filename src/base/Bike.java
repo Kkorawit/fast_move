@@ -8,7 +8,7 @@ public class Bike {
         this.licensePlate = licensePlate;
         this.engineCapacity = engineCapacity;
     }
-
+    
     @Override
     public String toString() {
         return "Bike licensePlate:" + licensePlate + ", engine: " + engineCapacity + " CC";
